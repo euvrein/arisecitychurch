@@ -1,0 +1,15 @@
+@font-face { font-family: BeyondTheMountain; src: url('../assets/font/beyond_the_mountains.otf'); }
+
+h1 {
+    font-family: BeyondTheMountain;
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }

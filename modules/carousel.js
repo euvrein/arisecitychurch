@@ -10,13 +10,13 @@ function display_carousel() {
             <!-- The slideshow/carousel -->\
             <div class='carousel-inner'>\
                 <div class='carousel-item active'>\
-                    <img src='./img/main-1.jpg' alt='Worship' class='d-block w-100'>\
+                    <img src='../img/main-1.jpg' alt='Worship' class='d-block w-100'>\
                 </div>\
                 <div class='carousel-item'>\
-                    <img src='./img/main-2.jpg' alt='Worship' class='d-block w-100'>\
+                    <img src='../img/main-2.jpg' alt='Worship' class='d-block w-100'>\
                 </div>\
                 <div class='carousel-item'>\
-                    <img src='./img/main-3.jpg' alt='Worship' class='d-block w-100'>\
+                    <img src='../img/main-3.jpg' alt='Worship' class='d-block w-100'>\
                 </div>\
             </div>\
             <!-- Left and right controls/icons -->\
