@@ -1,0 +1,28 @@
+"branches":[
+    {
+        "brach":"Dandenong",
+        "address": "123 ABC street",
+        "phone": "+61 234 5698",
+        "church service": "",
+    },
+    {
+        "brach":"PH 1",
+        "address": "123 ABC street",
+        "phone": "+61 234 5698",
+        "church service": "",
+    },
+    {
+        "brach":"PH 2",
+        "address": "123 ABC street",
+        "phone": "+61 234 5698",
+        "church service": "",
+    },
+    {
+        "brach":"PH 3",
+        "address": "123 ABC street",
+        "phone": "+61 234 5698",
+        "church service": "",
+    },
+
+
+  ]
