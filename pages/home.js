@@ -3,6 +3,7 @@ $(document).ready(function(){
     display_carousel();
     display_beliefs();
     display_prayer_request();
+    display_branches();
     display_pastors();
     display_footer();
 });
