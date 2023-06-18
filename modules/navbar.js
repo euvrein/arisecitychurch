@@ -9,7 +9,7 @@ function display_navbar() {
                 <div class='collapse navbar-collapse justify-content-end' id='collapsibleNavbar'>\
                     <ul class='navbar-nav'>\
                         <li class='nav-item'>\
-                            <a class='nav-link' href='javascript:void(0)'>\
+                            <a class='nav-link' href='./home.html'>\
                                 Home\
                             </a>\
                         </li>\

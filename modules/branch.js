@@ -75,15 +75,15 @@ var branches = [
 ];
 
 
-function display_branch(){
+function display_branches(){
     $('#branches_div').html("\
         <h1 class='text-center'>Choose your Branch</h1>\
-        <div id='branches_sub_div' class='row align-items-center justify-content-center'></div>\
+        <div id='branches_sub_div' class='row align-items-center justify-content-center col-12'></div>\
     ");
 
     for (i = 0; i < branches.length; i++) {
         $('#branches_sub_div').append("\
-            <div class='card col-md-3 m-3'>\
+            <div class='card col-lg-3 mt-3'>\
                 <img class='card-img-top rounded p-1 pt-3' src='" + branches[i].image_url + "' alt='Card image'>\
                 <div class='card-body'>\
                     <h4 class='card-title'>" + branches[i].branch_name + "</h4>\
