@@ -92,7 +92,7 @@ function display_branches(){
                         <i class='fas fa-phone'></i>" + branches[i].contact_number  + "<br/>\
                         <span id='branch_service_time_" + i + "'></span>\
                     </p>\
-                    <p class='text-center'><a type='button' class='btn btn-outline-success'><i class='fas fa-church'></i> View Map</a></p>\
+                    <p class='text-center'><a type='button' class='btn btn-outline-dark'><i class='fas fa-church'></i> View Map</a></p>\
                 </div>\
             </div>\
         ");
