@@ -19,13 +19,6 @@ function display_carousel() {
                     <img src='../img/main-3.jpg' alt='Worship' class='d-block w-100'>\
                 </div>\
             </div>\
-            <!-- Left and right controls/icons -->\
-            <button class='carousel-control-prev' type='button' data-bs-target='#demo' data-bs-slide='prev'>\
-                <span class='carousel-control-prev-icon'></span>\
-            </button>\
-            <button class='carousel-control-next' type='button' data-bs-target='#demo' data-bs-slide='next'>\
-                <span class='carousel-control-next-icon'></span>\
-            </button>\
         </div>\
     ");
 }
