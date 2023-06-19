@@ -2,8 +2,12 @@
 
 h1 {
     font-family: BeyondTheMountain;
-    font-size: 4em;
+    font-size: 2em;
     margin-bottom: 1em;
+}
+
+p {
+    font-size: 1em;
 }
 
 .vertical-center {
@@ -20,7 +24,7 @@ h1 {
 
 .logo {
     max-height: 300px;
-    max-width: 90%;
+    max-width: 60%;
 }
 
 .footer-link {
