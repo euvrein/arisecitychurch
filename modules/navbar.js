@@ -14,18 +14,13 @@ function display_navbar() {
                             </a>\
                         </li>\
                         <li class='nav-item'>\
-                            <a class='nav-link' href='./about.html'>\
-                                About\
+                            <a class='nav-link' href='https://www.facebook.com/AriseCityChurchAU'>\
+                                Facebook\
                             </a>\
                         </li>\
                         <li class='nav-item'>\
                             <a class='nav-link' href='javascript:void(0)'>\
-                                Services\
-                            </a>\
-                        </li>\
-                        <li class='nav-item'>\
-                            <a class='nav-link' href='javascript:void(0)'>\
-                                Resources\
+                                Spotify\
                             </a>\
                         </li>\
                     </ul>\

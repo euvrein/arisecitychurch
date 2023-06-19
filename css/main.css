@@ -20,7 +20,7 @@ h1 {
 
 .logo {
     max-height: 300px;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 .footer-link {
@@ -28,6 +28,6 @@ h1 {
     text-decoration: none;
 }
 
-footer {
+.row, footer {
     --bs-gutter-x: 0 !important;
 }
