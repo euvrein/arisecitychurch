@@ -13,14 +13,17 @@ function display_navbar() {
                                 Home\
                             </a>\
                         </li>\
-                        <li class='nav-item'>\
-                            <a class='nav-link' href='https://www.facebook.com/AriseCityChurchAU'>\
-                                Facebook\
-                            </a>\
+                        <li class='nav-item dropdown'>\
+                            <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown'>Ministries</a>\
+                            <ul class='dropdown-menu'>\
+                                <li><a class='dropdown-item' href='#'>Hospitality Team</a></li>\
+                                <li><a class='dropdown-item' href='#'>Kids Ministry</a></li>\
+                                <li><a class='dropdown-item' href='#'>Worship Team</a></li>\
+                            </ul>\
                         </li>\
                         <li class='nav-item'>\
-                            <a class='nav-link' href='javascript:void(0)'>\
-                                Spotify\
+                            <a class='nav-link' href='./message_us.html'>\
+                                Contact Us\
                             </a>\
                         </li>\
                     </ul>\

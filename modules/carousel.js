@@ -1,24 +1,42 @@
+carousel_img = [
+    {
+        "image_url": "../img/carousel/01.jpg",
+        "description": "Carousel Image 1"
+    },
+    {
+        "image_url": "../img/carousel/02.jpg",
+        "description": "Carousel Image 2"
+    },
+    {
+        "image_url": "../img/carousel/03.jpg",
+        "description": "Carousel Image 3"
+    }
+]
+
 function display_carousel() {
+
     $('#carousel_div').html("\
         <div id='main-page-carousel' class='carousel slide' data-bs-ride='carousel'>\
             <!-- Indicators/dots -->\
-            <div class='carousel-indicators'>\
-                <button type='button' data-bs-target='#main-page-carousel' data-bs-slide-to='0' class='active'></button>\
-                <button type='button' data-bs-target='#main-page-carousel' data-bs-slide-to='1'></button>\
-                <button type='button' data-bs-target='#main-page-carousel' data-bs-slide-to='2'></button>\
-            </div>\
+            <div class='carousel-indicators'></div>\
             <!-- The slideshow/carousel -->\
-            <div class='carousel-inner'>\
-                <div class='carousel-item active'>\
-                    <img src='../img/main-1.jpg' alt='Worship' class='d-block w-100'>\
-                </div>\
-                <div class='carousel-item'>\
-                    <img src='../img/main-2.jpg' alt='Worship' class='d-block w-100'>\
-                </div>\
-                <div class='carousel-item'>\
-                    <img src='../img/main-3.jpg' alt='Worship' class='d-block w-100'>\
-                </div>\
-            </div>\
+            <div class='carousel-inner'></div>\
         </div>\
     ");
+
+    for (i = 0; i < carousel_img.length; i++) {    
+        $('.carousel-indicators').append("<button type='button' id='cinds" + i + "' data-bs-target='#main-page-carousel' data-bs-slide-to='" + i + "'></button>");
+    };
+
+    for (i = 0; i < carousel_img.length; i++) {    
+        $('.carousel-inner').append("\
+            <div class='carousel-item' id='cinns" + i + "'>\
+                <img src='" + carousel_img[i].image_url + "' alt='" + carousel_img[i].description + "' class='d-block w-100'>\
+            </div>\
+        ");
+    };
+
+    $("#cinds0").addClass("active");
+    $("#cinns0").addClass("active");
+
 }

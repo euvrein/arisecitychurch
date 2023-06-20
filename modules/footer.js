@@ -34,7 +34,7 @@ faqs = [
 
 function display_footer() {
     $('footer').html("\
-    <div class='col-md-3 p-md-3 bg-secondary text-white d-none d-lg-block'>\
+    <div class='col-md-3 p-5 bg-secondary text-white d-none d-md-block'>\
         <p><q>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.</q></p>\
         <p class='text-end'>Matthew 28:19-20</p>\
     </div>\

@@ -27,6 +27,15 @@ p {
     max-width: 50%;
 }
 
+.image-80 {
+    max-width: 80%;
+}
+
+.image-100 {
+    max-width: 100%;
+}
+
+
 .footer-link {
     color:white;
     text-decoration: none;
