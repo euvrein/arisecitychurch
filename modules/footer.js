@@ -67,8 +67,8 @@ function display_footer() {
                     <a class='fa-brands fa-facebook fa-xl footer-link' href='https://www.facebook.com/AriseCityChurchAU'></a>\
                     <a class='fa-brands fa-facebook-messenger fa-xl footer-link' href='https://m.me/arise.citychurch'></a>\
                     <i class='fa-brands fa-spotify fa-xl'></i>\
-                    <i class='fa-brands fa-soundcloud fa-xl'></i>\
-                    <i class='fa-brands fa-youtube fa-xl'></i>\
+                    <a class='fa-brands fa-soundcloud fa-xl footer-link' href='https://soundcloud.com/user-296602812-620079985'></a>\
+                    <a class='fa-brands fa-youtube fa-xl footer-link' href='https://www.youtube.com/channel/UCuLu-rVQxYVBCOfcsD5YTAQ'></i>\
                 </p>\
             </div>\
         </div>\
