@@ -16,10 +16,15 @@ function display_navbar() {
                         <li class='nav-item dropdown'>\
                             <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown'>Ministries</a>\
                             <ul class='dropdown-menu'>\
-                                <li><a class='dropdown-item' href='#'>Hospitality Team</a></li>\
-                                <li><a class='dropdown-item' href='#'>Kids Ministry</a></li>\
-                                <li><a class='dropdown-item' href='#'>Worship Team</a></li>\
+                                <li><a class='dropdown-item' href='./hospitality_team.html'>Hospitality Team</a></li>\
+                                <li><a class='dropdown-item' href='./kids_ministry.html'>Kids Ministry</a></li>\
+                                <li><a class='dropdown-item' href='./worship_team.html'>Worship Team</a></li>\
                             </ul>\
+                        </li>\
+                        <li class='nav-item'>\
+                            <a class='nav-link' href='./testimonials.html'>\
+                                Testimonials\
+                            </a>\
                         </li>\
                         <li class='nav-item'>\
                             <a class='nav-link' href='./message_us.html'>\

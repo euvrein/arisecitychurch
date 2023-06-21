@@ -1,7 +1,7 @@
 @font-face { font-family: BeyondTheMountain; src: url('../assets/font/beyond_the_mountains.otf'); }
 
 h1 {
-    font-family: BeyondTheMountain;
+    /* font-family: BeyondTheMountain; */
     font-size: 2em;
     margin-bottom: 1em;
 }
