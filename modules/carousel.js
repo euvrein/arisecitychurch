@@ -10,6 +10,10 @@ carousel_img = [
     {
         "image_url": "../img/carousel/03.jpg",
         "description": "Carousel Image 3"
+    },
+    {
+        "image_url": "../img/carousel/04.jpg",
+        "description": "Carousel Image 4"
     }
 ]
 
