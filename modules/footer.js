@@ -34,11 +34,11 @@ faqs = [
 
 function display_footer() {
     $('footer').html("\
-    <div class='col-md-3 p-5 bg-secondary text-white d-none d-md-block'>\
+    <div class='col-md-3 p-5 bg-147ecf text-white d-none d-md-block'>\
         <p><q>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.</q></p>\
         <p class='text-end'>Matthew 28:19-20</p>\
     </div>\
-    <div class='col-md-9 p-3 bg-dark text-white'>\
+    <div class='col-md-9 p-3 bg-arise text-white'>\
         <div class='row'>\
             <h5>Arise City Church</h5>\
         </div>\
@@ -54,21 +54,21 @@ function display_footer() {
             <div class='col-md-3 p-sm-3'>\
                 <h6>Our Branches</h6>\
                 <p>\
-                    <a href='https://www.facebook.com/AriseCityChurchAU' class='footer-link'>Doveton Victoria AU</a><br />\
-                    <a href='https://www.facebook.com/AriseImus' class='footer-link'>Imus Cavite PH</a><br />\
-                    <a href='https://www.facebook.com/arisecitychurch.pamp' class='footer-link'>Magalang Pampanga PH</a><br />\
-                    <a href='https://www.facebook.com/profile.php?id=100087763931126' class='footer-link'>Labuan Pangasinan PH</a><br />\
+                    <a class='footer-link' href='https://www.facebook.com/AriseCityChurchAU'  target='_blank'>Doveton Victoria AU</a><br />\
+                    <a class='footer-link' href='https://www.facebook.com/AriseImus' target='_blank'>Imus Cavite PH</a><br />\
+                    <a class='footer-link' href='https://www.facebook.com/arisecitychurch.pamp' target='_blank'>Magalang Pampanga PH</a><br />\
+                    <a class='footer-link' href='https://www.facebook.com/profile.php?id=100087763931126' target='_blank'>Labuan Pangasinan PH</a><br />\
                 </p>\
             </div>\
             <div class='col-md-3 p-sm-3'>\
                 <h6>Other Links</h6>\
                 <p>Discover valuable resources, insightful teachings, and connect with a community of believers through these links.</p>\
                 <p>\
-                    <a class='fa-brands fa-facebook fa-xl footer-link' href='https://www.facebook.com/AriseCityChurchAU'></a>\
-                    <a class='fa-brands fa-facebook-messenger fa-xl footer-link' href='https://m.me/arise.citychurch'></a>\
-                    <i class='fa-brands fa-spotify fa-xl'></i>\
-                    <a class='fa-brands fa-youtube fa-xl footer-link' href='https://www.youtube.com/channel/UCuLu-rVQxYVBCOfcsD5YTAQ'></i></a>\
-                    <a class='fa-brands fa-soundcloud fa-xl footer-link' href='https://soundcloud.com/user-296602812-620079985'></a>\
+                    <a class='fa-brands fa-facebook fa-xl footer-link' href='https://www.facebook.com/AriseCityChurchAU' target='_blank' ></a>\
+                    <a class='fa-brands fa-facebook-messenger fa-xl footer-link' href='https://m.me/arise.citychurch' target='_blank' ></a>\
+                    <a class='fa-brands fa-spotify fa-xl footer-link' href='#' target='_blank'></a>\
+                    <a class='fa-brands fa-youtube fa-xl footer-link' href='https://www.youtube.com/channel/UCuLu-rVQxYVBCOfcsD5YTAQ' target='_blank' ></i></a>\
+                    <a class='fa-brands fa-soundcloud fa-xl footer-link' href='https://soundcloud.com/user-296602812-620079985' target='_blank' ></a>\
                 </p>\
             </div>\
         </div>\
@@ -84,7 +84,7 @@ function display_footer() {
     for (i = 0; i < faqs.length; i++) {
         $("body").append("\
         <div class='modal fade' id='FAQ-Modal-" + i + "'>\
-            <div class='modal-dialog'>\
+            <div class='modal-dialog text-arise'>\
                 <div class='modal-content'>\
                 <div class='modal-header'>\
                     <h4 class='modal-title'>" + faqs[i].question + "</h4>\

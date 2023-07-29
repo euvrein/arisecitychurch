@@ -1,6 +1,6 @@
 function display_navbar() {
     $("#navbar_div").html("\
-        <nav class='navbar navbar-expand-sm fixed-top bg-dark navbar-dark'>\
+        <nav class='navbar navbar-arise navbar-expand-sm fixed-top'>\
             <div class='container-fluid'>\
                 <a class='navbar-brand' href='./home.html'>ARISE CITY CHURCH</a>\
                 <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#collapsibleNavbar'>\
