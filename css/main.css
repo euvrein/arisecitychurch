@@ -1,73 +1,31 @@
 @font-face { font-family: BeyondTheMountain; src: url('../assets/font/beyond_the_mountains.otf'); }
 
+a:hover{
+    color:#F6F27A;
+}
+
 h1 {
     /* font-family: BeyondTheMountain; */
     font-size: 2em;
     margin-bottom: 1em;
 }
 
-.text-arise{
-    color: #1068AC;
-}
-
-.text-arise-alt{
-    color: #F6F27A;
-}
-
 p {
     font-size: 1em;
 }
 
-.vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-  
-    display: flex;
-    align-items: center;
-  }
-
-.pastor-img {
-    max-width: 150px;
+.arise-link{
+    color:#1068AC;
+    font-weight:500;
 }
 
-.logo {
-    max-height: 300px;
-    max-width: 50%;
+.arise-link:hover{
+    color:#1068AC;
+    font-weight: bold;
 }
 
-.image-80 {
-    max-width: 80%;
-}
-
-.image-100 {
-    max-width: 100%;
-}
-
-.nav-item > .dropdown-menu{
-    background-color: #1068AC;
-    color: #FFF;
-    --bs-dropdown-link-color: #FFF;
-    --bs-dropdown-link-hover-color: #F6F27A;
-    --bs-dropdown-link-hover-bg: #1068AC;
-    --bs-navbar-color: #FFF;
-}
-
-.footer-link {
-    color:white;
-    text-decoration: none;
-}
-
-.row, footer {
-    --bs-gutter-x: 0 !important;
-}
-
-.navbar-arise{
-    background-color: #1068AC;
-    --bs-navbar-color: #FFF;
-    --bs-navbar-brand-color: #FFF;
-    --bs-nav-link-hover-color: #F6F27A;
-    --bs-navbar-hover-color: #F6F27A;
-    --bs-navbar-brand-hover-color: #F6F27A;
+.bg-147ecf{
+    background-color: #147ecf;
 }
 
 .bg-arise{
@@ -99,25 +57,66 @@ p {
     --bs-btn-disabled-border-color: #1068AC;
 }
 
-a:hover{
-    color:#F6F27A;
-}
-
-.arise-link{
-    color:#1068AC;
-    font-weight:500;
-}
-
-.arise-link:hover{
-    color:#1068AC;
-    font-weight: bold;
-}
-
-.bg-147ecf{
-    background-color: #147ecf;
+.footer-link {
+    color:white;
+    text-decoration: none;
 }
 
 .form-control {
     color: #1068AC;
     border: 1px solid #1068AC;
+}
+
+.image-80 {
+    max-width: 80%;
+}
+
+.image-100 {
+    max-width: 100%;
+}
+
+.logo {
+    max-height: 300px;
+    max-width: 50%;
+}
+
+.navbar-arise{
+    background-color: #1068AC;
+    --bs-navbar-color: #FFF;
+    --bs-navbar-brand-color: #FFF;
+    --bs-nav-link-hover-color: #F6F27A;
+    --bs-navbar-hover-color: #F6F27A;
+    --bs-navbar-brand-hover-color: #F6F27A;
+}
+
+.nav-item > .dropdown-menu{
+    background-color: #1068AC;
+    color: #FFF;
+    --bs-dropdown-link-color: #FFF;
+    --bs-dropdown-link-hover-color: #F6F27A;
+    --bs-dropdown-link-hover-bg: #1068AC;
+    --bs-navbar-color: #FFF;
+}
+
+.pastor-img {
+    max-width: 150px;
+}
+
+.row, footer {
+    --bs-gutter-x: 0 !important;
+}
+
+.text-arise{
+    color: #1068AC;
+}
+
+.text-arise-alt{
+    color: #F6F27A;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */  
+    display: flex;
+    align-items: center;
 }
