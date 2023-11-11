@@ -1,19 +1,11 @@
 carousel_img = [
     {
-        "image_url": "../img/carousel/01.jpg",
+        "image_url": "../img/carousel/1001.png",
         "description": "Carousel Image 1"
     },
     {
-        "image_url": "../img/carousel/02.jpg",
+        "image_url": "../img/carousel/1002.png",
         "description": "Carousel Image 2"
-    },
-    {
-        "image_url": "../img/carousel/03.jpg",
-        "description": "Carousel Image 3"
-    },
-    {
-        "image_url": "../img/carousel/04.jpg",
-        "description": "Carousel Image 4"
     }
 ]
 
