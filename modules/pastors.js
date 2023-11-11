@@ -3,25 +3,25 @@ var pastors = [
         "pastor_name":"Mike Fernandez",
         "title": "Senior Pastor",
         "description": "Quis ipsum suspendisse ultrices gravida. Ultricies leo integer malesuada nunc vel risus commodo. Odio pellentesque diam volutpat commodo sed egestas egestas.",
-        "image_url": "../img/pastors/mike.jpg"
+        "image_url": "../img/pastors/mike.JPG"
     },
     {
         "pastor_name":"Ben Hadlos",
         "title": "Pastor",
         "description": "Quis ipsum suspendisse ultrices gravida. Ultricies leo integer malesuada nunc vel risus commodo. Odio pellentesque diam volutpat commodo sed egestas egestas.",
-        "image_url": "../img/pastors/ben.jpg"
+        "image_url": "../img/pastors/ben.JPG"
     },
     {
         "pastor_name":"Roger Cortez",
         "title": "Pastor",
         "description": "Quis ipsum suspendisse ultrices gravida. Ultricies leo integer malesuada nunc vel risus commodo. Odio pellentesque diam volutpat commodo sed egestas egestas.",
-        "image_url": "../img/pastors/roger.jpg"
+        "image_url": "../img/pastors/roger.JPG"
     },  
     {
         "pastor_name":"Alex Gocon",
         "title": "Speaker",
         "description": "Quis ipsum suspendisse ultrices gravida. Ultricies leo integer malesuada nunc vel risus commodo. Odio pellentesque diam volutpat commodo sed egestas egestas.",
-        "image_url": "../img/pastors/alex.jpg"
+        "image_url": "../img/pastors/alex.JPG"
     }
 ];
 
