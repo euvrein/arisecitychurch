@@ -18,6 +18,7 @@ function display_navbar() {
                             <ul class='dropdown-menu'>\
                                 <li><a class='dropdown-item' href='./hospitality_team.html'>Hospitality Team</a></li>\
                                 <li><a class='dropdown-item' href='./kids_ministry.html'>Kids Ministry</a></li>\
+                                <li><a class='dropdown-item' href='./youth.html'>Youth and Young Adults</a></li>\
                                 <li><a class='dropdown-item' href='./worship_team.html'>Worship Team</a></li>\
                             </ul>\
                         </li>\
