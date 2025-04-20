@@ -34,47 +34,48 @@ faqs = [
 
 function display_footer() {
     $('footer').html("\
-    <div class='col-md-3 p-5 bg-147ecf text-white d-none d-md-block'>\
-        <p><q>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.</q></p>\
-        <p class='text-end'>Matthew 28:19-20</p>\
-    </div>\
-    <div class='col-md-9 p-3 bg-arise text-white'>\
         <div class='row'>\
-            <h5>Arise City Church</h5>\
+            <div class='col-md-3 p-5 bg-147ecf text-white d-none d-md-block'>\
+                <p><q>Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.</q></p>\
+                <p class='text-end'>Matthew 28:19-20</p>\
+            </div>\
+            <div class='col-md-9 p-3 bg-arise text-white'>\
+                <div class='row'>\
+                    <h5>Arise City Church</h5>\
+                </div>\
+                <div class='row col-md-12'>\
+                    <div class='col-md-3 p-sm-3'>\
+                        <h6>Arise City Church</h6>\
+                        <p>Welcome to our modest church, which fosters a friendly environment. Join us as we celebrate a common spiritual path and sharing in the joy of worship.</p>\
+                    </div>\
+                    <div class='col-md-3 p-sm-3'>\
+                        <h6>Frequently Asked Questions</h6>\
+                        <p id='faq-footer'></p>\
+                    </div>\
+                    <div class='col-md-3 p-sm-3'>\
+                        <h6>Our Branches</h6>\
+                        <p>\
+                            <a class='footer-link' href='https://www.facebook.com/profile.php?id=61558713958663'  target='_blank'>Doveton Victoria AU</a><br />\
+                            <a class='footer-link' href='https://www.facebook.com/AriseImus' target='_blank'>Imus Cavite PH</a><br />\
+                            <a class='footer-link' href='https://www.facebook.com/arisecitychurch.pamp' target='_blank'>Magalang Pampanga PH</a><br />\
+                            <a class='footer-link' href='https://www.facebook.com/profile.php?id=100087763931126' target='_blank'>Labuan Pangasinan PH</a><br />\
+                            <a class='footer-link' href='https://www.facebook.com/GTSCP' target='_blank'>Calamba Laguna PH</a><br />\
+                        </p>\
+                    </div>\
+                    <div class='col-md-3 p-sm-3'>\
+                        <h6>Other Links</h6>\
+                        <p>Discover valuable resources, insightful teachings, and connect with a community of believers through these links.</p>\
+                        <p>\
+                            <a class='fa-brands fa-facebook fa-xl footer-link' href='https://www.facebook.com/profile.php?id=61558713958663' target='_blank' ></a>\
+                            <a class='fa-brands fa-facebook-messenger fa-xl footer-link' href='https://m.me/235154549691476' target='_blank' ></a>\
+                            <a class='fa-brands fa-instagram fa-xl footer-link' href='https://www.instagram.com/arisecitychurchaus' target='_blank' ></a>\
+                            <a class='fa-brands fa-spotify fa-xl footer-link' href='https://open.spotify.com/show/6krtztFn1WnWGU1INcpK86' target='_blank'></a>\
+                            <a class='fa-brands fa-youtube fa-xl footer-link' href='https://www.youtube.com/channel/UCuLu-rVQxYVBCOfcsD5YTAQ' target='_blank'></i></a>\
+                        </p>\
+                    </div>\
+                </div>\
+            </div>\
         </div>\
-        <div class='row col-md-12'>\
-            <div class='col-md-3 p-sm-3'>\
-                <h6>Arise City Church</h6>\
-                <p>Welcome to our modest church, which fosters a friendly environment. Join us as we celebrate a common spiritual path and sharing in the joy of worship.</p>\
-            </div>\
-            <div class='col-md-3 p-sm-3'>\
-                <h6>Frequently Asked Questions</h6>\
-                <p id='faq-footer'></p>\
-            </div>\
-            <div class='col-md-3 p-sm-3'>\
-                <h6>Our Branches</h6>\
-                <p>\
-                    <a class='footer-link' href='https://www.facebook.com/profile.php?id=61558713958663'  target='_blank'>Doveton Victoria AU</a><br />\
-                    <a class='footer-link' href='https://www.facebook.com/AriseImus' target='_blank'>Imus Cavite PH</a><br />\
-                    <a class='footer-link' href='https://www.facebook.com/arisecitychurch.pamp' target='_blank'>Magalang Pampanga PH</a><br />\
-                    <a class='footer-link' href='https://www.facebook.com/profile.php?id=100087763931126' target='_blank'>Labuan Pangasinan PH</a><br />\
-                    <a class='footer-link' href='https://www.facebook.com/GTSCP' target='_blank'>Calamba Laguna PH</a><br />\
-                </p>\
-            </div>\
-            <div class='col-md-3 p-sm-3'>\
-                <h6>Other Links</h6>\
-                <p>Discover valuable resources, insightful teachings, and connect with a community of believers through these links.</p>\
-                <p>\
-                    <a class='fa-brands fa-facebook fa-xl footer-link' href='https://www.facebook.com/profile.php?id=61558713958663' target='_blank' ></a>\
-                    <a class='fa-brands fa-facebook-messenger fa-xl footer-link' href='https://m.me/235154549691476' target='_blank' ></a>\
-                    <a class='fa-brands fa-instagram fa-xl footer-link' href='https://www.instagram.com/arisecitychurchaus' target='_blank' ></a>\
-                    <a class='fa-brands fa-spotify fa-xl footer-link' href='#' target='_blank'></a>\
-                    <a class='fa-brands fa-youtube fa-xl footer-link' href='https://www.youtube.com/channel/UCuLu-rVQxYVBCOfcsD5YTAQ' target='_blank' ></i></a>\
-                    <a class='fa-brands fa-soundcloud fa-xl footer-link' href='https://soundcloud.com/user-296602812-620079985' target='_blank' ></a>\
-                </p>\
-            </div>\
-        </div>\
-    </div>\
     ");
 
     for (i = 0; i < faqs.length; i++) {

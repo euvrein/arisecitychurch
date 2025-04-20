@@ -1,5 +1,9 @@
 @font-face { font-family: BeyondTheMountain; src: url('../assets/font/beyond_the_mountains.otf'); }
 
+.facebook-plugin{
+    background-image: linear-gradient(#fff, #8dcdff, #F8F9FA);
+}
+
 a:hover{
     color:#F6F27A;
 }

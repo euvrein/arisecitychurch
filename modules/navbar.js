@@ -18,13 +18,18 @@ function display_navbar() {
                             <ul class='dropdown-menu'>\
                                 <li><a class='dropdown-item' href='./hospitality_team.html'>Hospitality Team</a></li>\
                                 <li><a class='dropdown-item' href='./kids_ministry.html'>Kids Ministry</a></li>\
-                                <li><a class='dropdown-item' href='./youth.html'>Youth and Young Adults</a></li>\
+                                <li><a class='dropdown-item' href='./youth.html'>Life Group</a></li>\
                                 <li><a class='dropdown-item' href='./worship_team.html'>Worship Team</a></li>\
                             </ul>\
                         </li>\
                         <li class='nav-item'>\
                             <a class='nav-link' href='./testimonials.html'>\
                                 Testimonials\
+                            </a>\
+                        </li>\
+                        <li class='nav-item'>\
+                            <a class='nav-link' href='./donations.html'>\
+                                Donations\
                             </a>\
                         </li>\
                         <li class='nav-item'>\
@@ -36,5 +41,6 @@ function display_navbar() {
                 </div>\
             </div>\
         </nav>\
+        <div class='navbar navbar-arise navbar-expand-sm row'></div>\
     ");
 }
