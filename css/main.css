@@ -4,6 +4,12 @@
     background-image: linear-gradient(#fff, #8dcdff, #F8F9FA);
 }
 
+.fb_iframe_widget_fluid > span > iframe {
+    max-width: 300px !important;
+}
+
+
+
 a:hover{
     color:#F6F27A;
 }
